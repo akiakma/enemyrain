@@ -1,0 +1,37 @@
+body{
+    display:flex;
+    justify-content: center;
+    background-color: lightgreen;
+}
+#bg{
+
+    background-image: url("/images/bg.png");
+    width: 800px;
+    height: 600px;
+    position: relative;
+    min-width: 800px;
+    display:flex;
+    justify-content: center;
+
+}
+
+.hero{
+  background-image: url("./images/hero.png");
+  height: 54px;
+  width: 35px;
+  position: absolute;
+  top:545px;
+  bottom: 0;
+  background-position:0px;
+  left:390px;
+}
+
+.enemy{
+  position: absolute;
+  background-image: url("./images/enemy.png");
+  background-position:0px;
+  height: 54px;
+  width: 42px;
+  top:0px;
+  left:390.31231231231233px;
+}
